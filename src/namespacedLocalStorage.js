@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { AugmentedMap } from "next-core-structures";
 import LocalStorage from "./localStorage.js";
 import LocalStorageFactory from  "./localStorageFactory.js";
 
@@ -12,7 +12,7 @@ class NamespacedLocalStorage extends LocalStorage {
   constructor(persist, namespace) {
     super(persist);
     this._ls = LocalStorageFactory.getStorage(persist);
-    this._myStore = new Augmented.Utility.Map();
+    this._myStore = new AugmentedMap();
     this.namespace = namespace;
 
     // true = localStorage, false = sessionStorage
@@ -58,7 +58,7 @@ class NamespacedLocalStorage extends LocalStorage {
 
   setItem(itemKey, object) {
     if (!this._myStore) {
-      this._myStore = new Augmented.Utility.Map();
+      this._myStore = new AugmentedMap();
     }
     this._myStore.set(itemKey, object);
     this._ls.setItem(this.namespace, JSON.stringify(this._myStore.toJSON()));
@@ -84,9 +84,7 @@ class NamespacedLocalStorage extends LocalStorage {
 
   /**
   * Gets the namespaced items as a Map
-  * @method getNamespacedItems
-  * @memberof NamespacedAugmentedLocalStorage
-  * @returns {Augmented.Utility.Map} Returns the namespaced storage as Map
+  * @returns {AugmentedMap} Returns the namespaced storage as Map
   */
   getNamespacedItems() {
     return this._myStore;

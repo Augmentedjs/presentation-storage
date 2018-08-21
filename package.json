@@ -1,6 +1,6 @@
 {
   "name": "presentation-storage",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "The Augmented.js Next - Presentation Storage Module.",
   "main": "dist/presentation-storage.js",
   "scripts": {
@@ -45,7 +45,7 @@
     "webpack-cli": "^2.1.5"
   },
   "dependencies": {
-    "augmentedjs-next": "^2.2.0"
+    "next-core-structures": "^2.5.3"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-storage/issues"
