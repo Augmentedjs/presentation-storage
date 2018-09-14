@@ -4,7 +4,6 @@ const isStorageSupported = () => {
 
 /**
  * Local Storage API - returned from LocalStorageFactory
- * @memberof Presentation
  * @param {boolean} persist Persistant storage or not
  */
 class LocalStorage {
@@ -43,9 +42,11 @@ class LocalStorage {
    * @returns {object} Returns object from storage
    */
   getItem(itemKey) {
-    const item = this._myStore.getItem(itemKey);
-    if (item) {
-      return JSON.parse(item);
+    if (this._myStore) {
+      const item = this._myStore.getItem(itemKey);
+      if (item) {
+        return JSON.parse(item);
+      }
     }
     return null;
   };
@@ -56,7 +57,9 @@ class LocalStorage {
    * @param {object} object The data to set
    */
   setItem(itemKey, object) {
-    this._myStore.setItem(itemKey, JSON.stringify(object));
+    if (this._myStore && itemKey && object) {
+      this._myStore.setItem(itemKey, JSON.stringify(object));
+    }
   };
 
   /**
@@ -64,14 +67,18 @@ class LocalStorage {
    * @param {string} key The key in storage
    */
   removeItem(itemKey) {
-    this._myStore.removeItem(itemKey);
+    if (this._myStore) {
+      this._myStore.removeItem(itemKey);
+    }
   };
 
   /**
    * Clears storage - <b>Warning: Destructive in non-namespaced instances!</b>
    */
   clear() {
-    this._myStore.clear();
+    if (this._myStore) {
+      this._myStore.clear();
+    }
   };
 
   /**
@@ -80,7 +87,10 @@ class LocalStorage {
    * @returns {string} Returns the key from storage
    */
   key(i) {
-    return this._myStore.key(i);
+    if (this._myStore) {
+      return this._myStore.key(i);
+    }
+    return null;
   };
 
   /**
@@ -88,7 +98,10 @@ class LocalStorage {
    * @returns {number} Returns the length of storage by keys
    */
   length() {
-    return this._myStore.length;
+    if (this._myStore) {
+      return this._myStore.length;
+    }
+    return 0;
   };
 };
 

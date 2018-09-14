@@ -2,21 +2,18 @@ import LocalStorage from "./localStorage.js";
 import NamespacedLocalStorage from "./namespacedLocalStorage.js";
 
 /**
- * Augmented.LocalStorageFactory
+ * LocalStorageFactory
  * Retrieve a local storage Object
- * @class LocalStorageFactory
- * @memberof Presentation
  */
 class LocalStorageFactory {
   constructor() {
   };
 
   /**
-   * @method getStorage Get the storage instance
+   * Get the storage instance
    * @param {boolean} persist Persistance or not
    * @param {string} namespace The namespace of the storage if needed (optional)
-   * @returns {Presentation.LocalStorage} Returns an instance of local storage
-   * @memberof LocalStorageFactory
+   * @returns {LocalStorage} Returns an instance of local storage
    */
   static getStorage(persist, namespace) {
     let ls = null;
