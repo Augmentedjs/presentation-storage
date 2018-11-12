@@ -58,6 +58,24 @@ window.lunrData = {
           "list",
           "list:class"
         ],
+        "LocalStorageFactory.html": [
+          "class",
+          "local",
+          "localstoragefactori",
+          "localstoragefactoryretriev",
+          "object",
+          "storag"
+        ],
+        "LocalStorageFactory.html#.getStorage": [
+          "function",
+          "getstorag",
+          "instanc",
+          "localstoragefactory.getstorag",
+          "lt;static&gt",
+          "namespac",
+          "persist",
+          "storag"
+        ],
         "LocalStorage.html": [
           "api",
           "class",
@@ -66,6 +84,13 @@ window.lunrData = {
           "localstoragefactori",
           "return",
           "storag"
+        ],
+        "LocalStorage.html#isSupported": [
+          "function",
+          "issupport",
+          "localstorage#issupport",
+          "storag",
+          "support"
         ],
         "LocalStorage.html#getItem": [
           "function",
@@ -121,31 +146,6 @@ window.lunrData = {
           "localstorage#length",
           "storag"
         ],
-        "LocalStorage.html#isSupported": [
-          "function",
-          "issupport",
-          "localstorage#issupport",
-          "storag",
-          "support"
-        ],
-        "LocalStorageFactory.html": [
-          "class",
-          "local",
-          "localstoragefactori",
-          "localstoragefactoryretriev",
-          "object",
-          "storag"
-        ],
-        "LocalStorageFactory.html#.getStorage": [
-          "function",
-          "getstorag",
-          "instanc",
-          "localstoragefactory.getstorag",
-          "lt;static&gt",
-          "namespac",
-          "persist",
-          "storag"
-        ],
         "NamespacedLocalStorage.html": [
           "class",
           "local",
@@ -196,6 +196,14 @@ window.lunrData = {
           "namespacedlocalstorage#clear",
           "storag"
         ],
+        "NamespacedLocalStorage.html#key": [
+          "function",
+          "get",
+          "index",
+          "key",
+          "namespacedlocalstorage#key",
+          "storag"
+        ],
         "NamespacedLocalStorage.html#length": [
           "function",
           "key",
@@ -211,14 +219,6 @@ window.lunrData = {
           "map",
           "namespac",
           "namespacedlocalstorage#getnamespaceditem"
-        ],
-        "NamespacedLocalStorage.html#key": [
-          "function",
-          "get",
-          "index",
-          "key",
-          "namespacedlocalstorage#key",
-          "storag"
         ]
       },
       "length": 22
@@ -390,13 +390,46 @@ window.lunrData = {
                     "docs": {},
                     "c": {
                       "docs": {
-                        "LocalStorage.html#clear": {
-                          "ref": "LocalStorage.html#clear",
-                          "tf": 7.142857142857142
-                        },
                         "LocalStorageFactory.html#.getStorage": {
                           "ref": "LocalStorageFactory.html#.getStorage",
                           "tf": 25
+                        },
+                        "LocalStorage.html#clear": {
+                          "ref": "LocalStorage.html#clear",
+                          "tf": 7.142857142857142
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "s": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "p": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "t": {
+                          "docs": {
+                            "LocalStorage.html#isSupported": {
+                              "ref": "LocalStorage.html#isSupported",
+                              "tf": 750
+                            },
+                            "NamespacedLocalStorage.html#isSupported": {
+                              "ref": "NamespacedLocalStorage.html#isSupported",
+                              "tf": 750
+                            }
+                          }
                         }
                       }
                     }
@@ -442,39 +475,6 @@ window.lunrData = {
                 }
               }
             }
-          },
-          "s": {
-            "docs": {},
-            "s": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "p": {
-                    "docs": {},
-                    "o": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "t": {
-                          "docs": {
-                            "LocalStorage.html#isSupported": {
-                              "ref": "LocalStorage.html#isSupported",
-                              "tf": 750
-                            },
-                            "NamespacedLocalStorage.html#isSupported": {
-                              "ref": "NamespacedLocalStorage.html#isSupported",
-                              "tf": 750
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
           }
         },
         "n": {
@@ -507,13 +507,13 @@ window.lunrData = {
                       "docs": {},
                       "c": {
                         "docs": {
-                          "LocalStorage.html#clear": {
-                            "ref": "LocalStorage.html#clear",
-                            "tf": 7.142857142857142
-                          },
                           "LocalStorageFactory.html#.getStorage": {
                             "ref": "LocalStorageFactory.html#.getStorage",
                             "tf": 25
+                          },
+                          "LocalStorage.html#clear": {
+                            "ref": "LocalStorage.html#clear",
+                            "tf": 7.142857142857142
                           },
                           "NamespacedLocalStorage.html#clear": {
                             "ref": "NamespacedLocalStorage.html#clear",
@@ -771,6 +771,20 @@ window.lunrData = {
                                                           }
                                                         }
                                                       },
+                                                      "k": {
+                                                        "docs": {},
+                                                        "e": {
+                                                          "docs": {},
+                                                          "y": {
+                                                            "docs": {
+                                                              "NamespacedLocalStorage.html#key": {
+                                                                "ref": "NamespacedLocalStorage.html#key",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
                                                       "l": {
                                                         "docs": {},
                                                         "e": {
@@ -789,20 +803,6 @@ window.lunrData = {
                                                                     }
                                                                   }
                                                                 }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      },
-                                                      "k": {
-                                                        "docs": {},
-                                                        "e": {
-                                                          "docs": {},
-                                                          "y": {
-                                                            "docs": {
-                                                              "NamespacedLocalStorage.html#key": {
-                                                                "ref": "NamespacedLocalStorage.html#key",
-                                                                "tf": 1150
                                                               }
                                                             }
                                                           }
@@ -1002,9 +1002,21 @@ window.lunrData = {
                   "docs": {},
                   "g": {
                     "docs": {
+                      "LocalStorageFactory.html": {
+                        "ref": "LocalStorageFactory.html",
+                        "tf": 12.5
+                      },
+                      "LocalStorageFactory.html#.getStorage": {
+                        "ref": "LocalStorageFactory.html#.getStorage",
+                        "tf": 25
+                      },
                       "LocalStorage.html": {
                         "ref": "LocalStorage.html",
                         "tf": 10
+                      },
+                      "LocalStorage.html#isSupported": {
+                        "ref": "LocalStorage.html#isSupported",
+                        "tf": 25
                       },
                       "LocalStorage.html#getItem": {
                         "ref": "LocalStorage.html#getItem",
@@ -1030,18 +1042,6 @@ window.lunrData = {
                         "ref": "LocalStorage.html#length",
                         "tf": 16.666666666666664
                       },
-                      "LocalStorage.html#isSupported": {
-                        "ref": "LocalStorage.html#isSupported",
-                        "tf": 25
-                      },
-                      "LocalStorageFactory.html": {
-                        "ref": "LocalStorageFactory.html",
-                        "tf": 12.5
-                      },
-                      "LocalStorageFactory.html#.getStorage": {
-                        "ref": "LocalStorageFactory.html#.getStorage",
-                        "tf": 25
-                      },
                       "NamespacedLocalStorage.html": {
                         "ref": "NamespacedLocalStorage.html",
                         "tf": 12.5
@@ -1066,13 +1066,40 @@ window.lunrData = {
                         "ref": "NamespacedLocalStorage.html#clear",
                         "tf": 16.666666666666664
                       },
-                      "NamespacedLocalStorage.html#length": {
-                        "ref": "NamespacedLocalStorage.html#length",
-                        "tf": 16.666666666666664
-                      },
                       "NamespacedLocalStorage.html#key": {
                         "ref": "NamespacedLocalStorage.html#key",
                         "tf": 12.5
+                      },
+                      "NamespacedLocalStorage.html#length": {
+                        "ref": "NamespacedLocalStorage.html#length",
+                        "tf": 16.666666666666664
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "LocalStorage.html#isSupported": {
+                          "ref": "LocalStorage.html#isSupported",
+                          "tf": 25
+                        },
+                        "NamespacedLocalStorage.html#isSupported": {
+                          "ref": "NamespacedLocalStorage.html#isSupported",
+                          "tf": 25
+                        }
                       }
                     }
                   }
@@ -1108,33 +1135,6 @@ window.lunrData = {
                         "NamespacedLocalStorage.html#setItem": {
                           "ref": "NamespacedLocalStorage.html#setItem",
                           "tf": 683.3333333333334
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "p": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "LocalStorage.html#isSupported": {
-                          "ref": "LocalStorage.html#isSupported",
-                          "tf": 25
-                        },
-                        "NamespacedLocalStorage.html#isSupported": {
-                          "ref": "NamespacedLocalStorage.html#isSupported",
-                          "tf": 25
                         }
                       }
                     }
@@ -1182,34 +1182,13 @@ window.lunrData = {
                   "ref": "NamespacedLocalStorage.html#getItem",
                   "tf": 16.666666666666664
                 },
-                "NamespacedLocalStorage.html#getNamespacedItems": {
-                  "ref": "NamespacedLocalStorage.html#getNamespacedItems",
-                  "tf": 12.5
-                },
                 "NamespacedLocalStorage.html#key": {
                   "ref": "NamespacedLocalStorage.html#key",
                   "tf": 12.5
-                }
-              },
-              "i": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "m": {
-                      "docs": {
-                        "LocalStorage.html#getItem": {
-                          "ref": "LocalStorage.html#getItem",
-                          "tf": 700
-                        },
-                        "NamespacedLocalStorage.html#getItem": {
-                          "ref": "NamespacedLocalStorage.html#getItem",
-                          "tf": 700
-                        }
-                      }
-                    }
-                  }
+                },
+                "NamespacedLocalStorage.html#getNamespacedItems": {
+                  "ref": "NamespacedLocalStorage.html#getNamespacedItems",
+                  "tf": 12.5
                 }
               },
               "s": {
@@ -1229,6 +1208,27 @@ window.lunrData = {
                               "tf": 675
                             }
                           }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "i": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "m": {
+                      "docs": {
+                        "LocalStorage.html#getItem": {
+                          "ref": "LocalStorage.html#getItem",
+                          "tf": 700
+                        },
+                        "NamespacedLocalStorage.html#getItem": {
+                          "ref": "NamespacedLocalStorage.html#getItem",
+                          "tf": 700
                         }
                       }
                     }
@@ -1299,12 +1299,12 @@ window.lunrData = {
                       "ref": "list_class.html",
                       "tf": 635
                     },
-                    "LocalStorage.html": {
-                      "ref": "LocalStorage.html",
-                      "tf": 110
-                    },
                     "LocalStorageFactory.html": {
                       "ref": "LocalStorageFactory.html",
+                      "tf": 110
+                    },
+                    "LocalStorage.html": {
+                      "ref": "LocalStorage.html",
                       "tf": 110
                     },
                     "NamespacedLocalStorage.html": {
@@ -1382,13 +1382,13 @@ window.lunrData = {
                 "docs": {},
                 "l": {
                   "docs": {
-                    "LocalStorage.html": {
-                      "ref": "LocalStorage.html",
-                      "tf": 10
-                    },
                     "LocalStorageFactory.html": {
                       "ref": "LocalStorageFactory.html",
                       "tf": 12.5
+                    },
+                    "LocalStorage.html": {
+                      "ref": "LocalStorage.html",
+                      "tf": 10
                     },
                     "NamespacedLocalStorage.html": {
                       "ref": "NamespacedLocalStorage.html",
@@ -1428,13 +1428,13 @@ window.lunrData = {
                                             "docs": {},
                                             "i": {
                                               "docs": {
-                                                "LocalStorage.html": {
-                                                  "ref": "LocalStorage.html",
-                                                  "tf": 10
-                                                },
                                                 "LocalStorageFactory.html": {
                                                   "ref": "LocalStorageFactory.html",
                                                   "tf": 1900
+                                                },
+                                                "LocalStorage.html": {
+                                                  "ref": "LocalStorage.html",
+                                                  "tf": 10
                                                 }
                                               }
                                             },
@@ -1510,6 +1510,38 @@ window.lunrData = {
                                 },
                                 "#": {
                                   "docs": {},
+                                  "i": {
+                                    "docs": {},
+                                    "s": {
+                                      "docs": {},
+                                      "s": {
+                                        "docs": {},
+                                        "u": {
+                                          "docs": {},
+                                          "p": {
+                                            "docs": {},
+                                            "p": {
+                                              "docs": {},
+                                              "o": {
+                                                "docs": {},
+                                                "r": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {
+                                                      "LocalStorage.html#isSupported": {
+                                                        "ref": "LocalStorage.html#isSupported",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
                                   "g": {
                                     "docs": {},
                                     "e": {
@@ -1653,68 +1685,12 @@ window.lunrData = {
                                         }
                                       }
                                     }
-                                  },
-                                  "i": {
-                                    "docs": {},
-                                    "s": {
-                                      "docs": {},
-                                      "s": {
-                                        "docs": {},
-                                        "u": {
-                                          "docs": {},
-                                          "p": {
-                                            "docs": {},
-                                            "p": {
-                                              "docs": {},
-                                              "o": {
-                                                "docs": {},
-                                                "r": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {
-                                                      "LocalStorage.html#isSupported": {
-                                                        "ref": "LocalStorage.html#isSupported",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
                                   }
                                 }
                               }
                             }
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "g": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "h": {
-                    "docs": {
-                      "LocalStorage.html#length": {
-                        "ref": "LocalStorage.html#length",
-                        "tf": 766.6666666666666
-                      },
-                      "NamespacedLocalStorage.html#length": {
-                        "ref": "NamespacedLocalStorage.html#length",
-                        "tf": 766.6666666666666
                       }
                     }
                   }
@@ -1759,6 +1735,65 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "e": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "LocalStorage.html#length": {
+                        "ref": "LocalStorage.html#length",
+                        "tf": 766.6666666666666
+                      },
+                      "NamespacedLocalStorage.html#length": {
+                        "ref": "NamespacedLocalStorage.html#length",
+                        "tf": 766.6666666666666
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "o": {
+          "docs": {},
+          "b": {
+            "docs": {},
+            "j": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "LocalStorageFactory.html": {
+                        "ref": "LocalStorageFactory.html",
+                        "tf": 12.5
+                      },
+                      "LocalStorage.html#setItem": {
+                        "ref": "LocalStorage.html#setItem",
+                        "tf": 33.33333333333333
+                      },
+                      "NamespacedLocalStorage.html": {
+                        "ref": "NamespacedLocalStorage.html",
+                        "tf": 12.5
+                      },
+                      "NamespacedLocalStorage.html#setItem": {
+                        "ref": "NamespacedLocalStorage.html#setItem",
+                        "tf": 33.33333333333333
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "f": {
@@ -1777,6 +1812,14 @@ window.lunrData = {
                       "docs": {},
                       "n": {
                         "docs": {
+                          "LocalStorageFactory.html#.getStorage": {
+                            "ref": "LocalStorageFactory.html#.getStorage",
+                            "tf": 110
+                          },
+                          "LocalStorage.html#isSupported": {
+                            "ref": "LocalStorage.html#isSupported",
+                            "tf": 110
+                          },
                           "LocalStorage.html#getItem": {
                             "ref": "LocalStorage.html#getItem",
                             "tf": 110
@@ -1801,14 +1844,6 @@ window.lunrData = {
                             "ref": "LocalStorage.html#length",
                             "tf": 110
                           },
-                          "LocalStorage.html#isSupported": {
-                            "ref": "LocalStorage.html#isSupported",
-                            "tf": 110
-                          },
-                          "LocalStorageFactory.html#.getStorage": {
-                            "ref": "LocalStorageFactory.html#.getStorage",
-                            "tf": 110
-                          },
                           "NamespacedLocalStorage.html#isSupported": {
                             "ref": "NamespacedLocalStorage.html#isSupported",
                             "tf": 110
@@ -1829,16 +1864,16 @@ window.lunrData = {
                             "ref": "NamespacedLocalStorage.html#clear",
                             "tf": 110
                           },
+                          "NamespacedLocalStorage.html#key": {
+                            "ref": "NamespacedLocalStorage.html#key",
+                            "tf": 110
+                          },
                           "NamespacedLocalStorage.html#length": {
                             "ref": "NamespacedLocalStorage.html#length",
                             "tf": 110
                           },
                           "NamespacedLocalStorage.html#getNamespacedItems": {
                             "ref": "NamespacedLocalStorage.html#getNamespacedItems",
-                            "tf": 110
-                          },
-                          "NamespacedLocalStorage.html#key": {
-                            "ref": "NamespacedLocalStorage.html#key",
                             "tf": 110
                           }
                         }
@@ -1888,48 +1923,13 @@ window.lunrData = {
                   "ref": "NamespacedLocalStorage.html#removeItem",
                   "tf": 50
                 },
-                "NamespacedLocalStorage.html#length": {
-                  "ref": "NamespacedLocalStorage.html#length",
-                  "tf": 16.666666666666664
-                },
                 "NamespacedLocalStorage.html#key": {
                   "ref": "NamespacedLocalStorage.html#key",
                   "tf": 762.5
-                }
-              }
-            }
-          }
-        },
-        "o": {
-          "docs": {},
-          "b": {
-            "docs": {},
-            "j": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "LocalStorage.html#setItem": {
-                        "ref": "LocalStorage.html#setItem",
-                        "tf": 33.33333333333333
-                      },
-                      "LocalStorageFactory.html": {
-                        "ref": "LocalStorageFactory.html",
-                        "tf": 12.5
-                      },
-                      "NamespacedLocalStorage.html": {
-                        "ref": "NamespacedLocalStorage.html",
-                        "tf": 12.5
-                      },
-                      "NamespacedLocalStorage.html#setItem": {
-                        "ref": "NamespacedLocalStorage.html#setItem",
-                        "tf": 33.33333333333333
-                      }
-                    }
-                  }
+                },
+                "NamespacedLocalStorage.html#length": {
+                  "ref": "NamespacedLocalStorage.html#length",
+                  "tf": 16.666666666666664
                 }
               }
             }
@@ -2072,6 +2072,27 @@ window.lunrData = {
       "description": "",
       "body": ""
     },
+    "LocalStorageFactory.html": {
+      "id": "LocalStorageFactory.html",
+      "kind": "class",
+      "title": "LocalStorageFactory",
+      "longname": "LocalStorageFactory",
+      "name": "LocalStorageFactory",
+      "tags": "LocalStorageFactory",
+      "summary": "",
+      "description": "LocalStorageFactoryRetrieve a local storage Object",
+      "body": ""
+    },
+    "LocalStorageFactory.html#.getStorage": {
+      "id": "LocalStorageFactory.html#.getStorage",
+      "kind": "function",
+      "title": "&lt;static&gt; getStorage( persist, namespace )",
+      "longname": "LocalStorageFactory.getStorage",
+      "name": "getStorage",
+      "tags": "LocalStorageFactory.getStorage getStorage",
+      "summary": "",
+      "description": "Get the storage instance"
+    },
     "LocalStorage.html": {
       "id": "LocalStorage.html",
       "kind": "class",
@@ -2082,6 +2103,16 @@ window.lunrData = {
       "summary": "",
       "description": "Local Storage API - returned from LocalStorageFactory",
       "body": ""
+    },
+    "LocalStorage.html#isSupported": {
+      "id": "LocalStorage.html#isSupported",
+      "kind": "function",
+      "title": "isSupported()",
+      "longname": "LocalStorage#isSupported",
+      "name": "isSupported",
+      "tags": "LocalStorage#isSupported isSupported",
+      "summary": "",
+      "description": "Is storage supported"
     },
     "LocalStorage.html#getItem": {
       "id": "LocalStorage.html#getItem",
@@ -2142,37 +2173,6 @@ window.lunrData = {
       "tags": "LocalStorage#length length",
       "summary": "",
       "description": "The length of storage by keys"
-    },
-    "LocalStorage.html#isSupported": {
-      "id": "LocalStorage.html#isSupported",
-      "kind": "function",
-      "title": "isSupported()",
-      "longname": "LocalStorage#isSupported",
-      "name": "isSupported",
-      "tags": "LocalStorage#isSupported isSupported",
-      "summary": "",
-      "description": "Is storage supported"
-    },
-    "LocalStorageFactory.html": {
-      "id": "LocalStorageFactory.html",
-      "kind": "class",
-      "title": "LocalStorageFactory",
-      "longname": "LocalStorageFactory",
-      "name": "LocalStorageFactory",
-      "tags": "LocalStorageFactory",
-      "summary": "",
-      "description": "LocalStorageFactoryRetrieve a local storage Object",
-      "body": ""
-    },
-    "LocalStorageFactory.html#.getStorage": {
-      "id": "LocalStorageFactory.html#.getStorage",
-      "kind": "function",
-      "title": "&lt;static&gt; getStorage( persist, namespace )",
-      "longname": "LocalStorageFactory.getStorage",
-      "name": "getStorage",
-      "tags": "LocalStorageFactory.getStorage getStorage",
-      "summary": "",
-      "description": "Get the storage instance"
     },
     "NamespacedLocalStorage.html": {
       "id": "NamespacedLocalStorage.html",
@@ -2235,6 +2235,16 @@ window.lunrData = {
       "summary": "",
       "description": "Clears storage for namespace"
     },
+    "NamespacedLocalStorage.html#key": {
+      "id": "NamespacedLocalStorage.html#key",
+      "kind": "function",
+      "title": "key( i )",
+      "longname": "NamespacedLocalStorage#key",
+      "name": "key",
+      "tags": "NamespacedLocalStorage#key key",
+      "summary": "",
+      "description": "Gets the key from storage for index"
+    },
     "NamespacedLocalStorage.html#length": {
       "id": "NamespacedLocalStorage.html#length",
       "kind": "function",
@@ -2254,16 +2264,6 @@ window.lunrData = {
       "tags": "NamespacedLocalStorage#getNamespacedItems getNamespacedItems",
       "summary": "",
       "description": "Gets the namespaced items as a Map"
-    },
-    "NamespacedLocalStorage.html#key": {
-      "id": "NamespacedLocalStorage.html#key",
-      "kind": "function",
-      "title": "key( i )",
-      "longname": "NamespacedLocalStorage#key",
-      "name": "key",
-      "tags": "NamespacedLocalStorage#key key",
-      "summary": "",
-      "description": "Gets the key from storage for index"
     }
   }
 };
